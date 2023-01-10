@@ -1,3 +1,13 @@
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+body {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
 html {
     background-color: #f2f2f2;
 }
@@ -57,14 +67,14 @@ hr {margin: 7px 0px 0px 20px;
 }
 
 .DropTitel{
-    margin: 25px 497px 0px 0px ;
+    margin: 60px 497px 0px 0px ;
     font-size: 3rem;
     text-align: center;
     
 }
 
 #DropTitel{
-    margin: 35px 573px 0px 0px;
+    margin-right: 573px;
 }
 
 #Innhold, #Innhold2{

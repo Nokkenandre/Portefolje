@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portefølje</title>
+    <link rel="stylesheet" href="Style.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h1>Portefølje</h1>
+        <div id="headshotdiv">
+            <div class="img-container">
+                <img id="headshot" src="Headshot.jpg" alt="Bilde av meg" width="300" height="300">
+            </div>
+            <div class="text-container">
+                <h2 class="info">Martin Petros Kroken Vig</h2>
+                <h2 id="aar" class="info"></h2>
+                <h2 class="info">IT utviklings elev</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="ITProsjekter">
+            <h2 class="DropTitel">IT Prosjekter</h2>
+            <div class="DropDown">
+                <hr>
+                <img id="Pil" src="Dropdown.png" alt="Drop Down knapp" onclick="drop('Pil', 'Innhold')">
+            </div>
+            <div id="Innhold">
+                <ul>
+                    <li>
+                        <div class="level">
+                            <a href="" class="card"><div class="card"></div></a>
+                            <a href="" class="card"><div class="card"></div></a>
+                            <a href="" class="card"><div class="card"></div></a>
+                        </div>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+        <div class="MedieProsjekter">
+            <h2 class="DropTitel">Medie Prosjekter</h2>
+            <div class="DropDown">
+                <hr>
+                <img id="Pil2" src="Dropdown.png" alt="Drop Down knapp" onclick="drop('Pil2', 'Innhold2')">
+            </div>
+            <div id="Innhold2">
+                <ul>
+                    <li>
+                        <div class="level">
+                            <a href="" class="card"><div class="card"></div></a>
+                            <a href="" class="card"><div class="card"></div></a>
+                            <a href="" class="card"><div class="card"></div></a>
+                        </div>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+        <p>hei</p>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="App.js"></script>
+</body>
+</html>

@@ -57,8 +57,14 @@ hr {margin: 7px 0px 0px 20px;
 }
 
 .DropTitel{
-    margin: 60px 0px 0px 525px;
+    margin: 25px 497px 0px 0px ;
     font-size: 3rem;
+    text-align: center;
+    
+}
+
+#DropTitel{
+    margin: 35px 573px 0px 0px;
 }
 
 #Innhold, #Innhold2{
@@ -70,7 +76,7 @@ hr {margin: 7px 0px 0px 20px;
 .card{
     width: 200px;
     height: 350px;
-    background-color: grey;
+    background-color: #bebebe;
     margin: 0px 55px 0px 55px;
 }
 

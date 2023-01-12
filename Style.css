@@ -1,3 +1,6 @@
+* {
+    margin: 30px 0px 0px 0px;
+}
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
@@ -102,3 +105,18 @@ ul{
     margin: 0px;
 
 }
+
+footer
+{
+    background-color: grey;
+    height: 208px;
+    margin: 60px 0px 0px 0px;
+}
+
+.kontakt 
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+

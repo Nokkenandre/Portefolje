@@ -1,5 +1,5 @@
 //Denne koden regner ut alderen min i år.
-let fodt = new Date(2005,9,15)
+let fodt = new Date(2005,8,15)
 let currentDate = new Date();
 let ageInMilliseconds = currentDate - fodt;
 let ageInYears = ageInMilliseconds / 31536000000;

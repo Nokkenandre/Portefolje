@@ -89,10 +89,12 @@ hr {margin: 7px 0px 0px 20px;
     max-height: 0;
 }
 
-.card{
+.carddiv, .card{
     width: 200px;
     height: 350px;
     background-color: #bebebe;
+}
+ .card{
     margin: 0px 55px 0px 55px;
 }
 
@@ -157,4 +159,10 @@ footer
 {
     height: 50%;;
     background-color: black;
+}
+
+.cardimg
+{
+    height: 48.5%;
+    background-color: grey;
 }

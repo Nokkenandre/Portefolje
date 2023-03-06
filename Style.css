@@ -54,7 +54,7 @@ h1 {
 .DropDown {
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
+    margin: 0px 2.5% 0px 0px;
 }
 #Pil, #Pil2, #Pil3
  {
@@ -64,12 +64,11 @@ h1 {
     transition: transform 0.5s;
 }
 
-hr {margin: 7px 0px 0px 20px;
+hr {
+    margin: 7px 0px 0px 20px;
     height: 0px;
-    width: 900px;
+    width: 850px;
     border-bottom:2px solid black;
-    display: flex;
-    justify-self: flex-start;
 }
 
 .DropTitel{
@@ -93,7 +92,6 @@ hr {margin: 7px 0px 0px 20px;
     width: 250px;
     height: 350px;
     background-color: #bebebe;
-    margin: 0px 22px 0px 22px;
 }
 
 .level{
@@ -120,7 +118,6 @@ footer
 
 .kontakt 
 {
-    
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -156,4 +153,9 @@ footer
 .cardimg
 {
     width: 250px;
+}
+
+.mid
+{
+    margin: 0px 35px 0px 35px;
 }

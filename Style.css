@@ -197,5 +197,15 @@ footer
 .link img
 {
     text-align: center;
-    width: 20px;
+    width: 250px;
+    height: 150px;
+}
+
+.prosjektbilde
+{
+    margin-top: 40px;
+    display: block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
